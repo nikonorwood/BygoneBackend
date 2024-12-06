@@ -1,7 +1,7 @@
 # Bygone Backend
-### By Niko Norwood
+By Niko Norwood
 
-## Basic NodeJS Library that adds some funtionality for basic web servers.
+Basic NodeJS Library that adds some funtionality for basic web servers.
 
 ## Features
   Unified console output with output logged in a TXT
