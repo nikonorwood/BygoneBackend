@@ -12,10 +12,10 @@ Place bygone in your operating directory and import with `const bygone = require
 
 ## Examples
 ### Cached Object
-`object = new bygone.cachedFile("file.json"); //sets file path and copies over contents into object.cache 
-object.updateCache(); //overwrites object with contents of file 
-object.updateFile(); //writes object to file`
+ * `object = new bygone.cachedFile("file.json"); //sets file path and copies over contents into object.cache`
+ * `object.updateCache(); //overwrites object with contents of file`
+ * `object.updateFile(); //writes object to file`
 ### Output
-`bygone.setDebug(true); //tells bygone to display outputs labeled as debug
-bygone.output("console output");
-bygone.debugOutput("hidden console output")`
+ * `bygone.setDebug(true); //tells bygone to display outputs labeled as debug`
+ * `bygone.output("console output");`
+ * `bygone.debugOutput("hidden console output")`
