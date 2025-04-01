@@ -3,7 +3,7 @@
         a basic web service backend library
     
     by Niko Norwood 07/04/2024
-    last updated 12/06/2024 - NN
+    last updated 03/31/2025 - NN
 
 */
 
@@ -144,7 +144,7 @@ class cachedFile {
 
 console.log("Starting Bygone services... ");
 
-let logFilePath  = path.join(__dirname, "serverLog.txt")
+let logFilePath  = path.join(__dirname, "log.txt")
 logger = new Logger(logFilePath, 2000); //Filepath, flush interval
 
 
